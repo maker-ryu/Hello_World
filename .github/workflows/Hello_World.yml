@@ -2,8 +2,7 @@ name: Hello World!
 	
 on:
   push: # git push 할때마다 실행
-    branches:
-      - main
+    branches: [ master ]
 
 jobs:
   build:
